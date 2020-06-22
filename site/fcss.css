@@ -1,0 +1,53 @@
+body {
+	background-color: pink;
+	color: green;
+	font-style: italic;
+}
+
+h1 {
+	text-align: center;
+}
+div {
+	background-color: white;
+}
+p {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 2px solid black;
+	
+
+	
+}
+
+.p1 {
+	background-color: red;
+	
+}
+.p2 {
+	background-color: rgb(120,250,150);
+	
+
+}
+.p3 {
+	background-color: olive;
+
+}
+.p4 {
+	background-color: orchid;
+
+
+}
+section {
+	font-size: 30px;
+	color: black;
+	text-transform: capitalize;
+	clear: both;
+
+}
+@media (min-width: 760px){
+	p{
+		float:right;
+	}
+	
+}
