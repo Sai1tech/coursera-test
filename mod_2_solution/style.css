@@ -26,8 +26,6 @@
 	    font-weight: bold;
 	    width: 90%;
         padding: 30px 5px 20px 5px;
-	    margin: 25px 25px;
-	    
 	}
 	
 	.sec1, .sec2, .sec3{
@@ -62,11 +60,24 @@
 			width: 33.33%;
 			float: left;
 		}
+		.content1, .content2, .content3{
+			margin: 20px 25px;
+		}
 	}          
 	@media (min-width: 768px) and (max-width: 991px) {
 		section{
 			width: 50%;
 			float: left;
+		}
+		.content1{
+			margin: 20px 25px;
+		}
+		#diff{
+			width: 105.35%;
+			float: left;
+		}
+		.content3, .content2{
+			margin: 20px 25px;
 		}
 	}      
 	@media (max-width: 767px) {
@@ -74,5 +85,8 @@
 			width: 100%;
 			float: left;
 		}
+		.content1, .content2, .content3{
+			margin: 20px 25px;
+		}
 	}
-	
+	    
