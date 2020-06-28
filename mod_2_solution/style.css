@@ -10,10 +10,11 @@
 		margin-right: auto;
 		width: 400px;
 		margin-bottom: 30px;
-		background-color: aquamarine;
+		background-color: #00c0ff;
 		text-align: center;
 		border-bottom: 1px solid black;
 		border-top: 1px solid black;
+		border-radius: 15px;
 	}
 	.box{
 		width: 100%;
@@ -41,19 +42,13 @@
 		border-bottom: 1px solid black;
 	}
 	.sec1{
-		background-color: #8B0000;
+		background-color: #3cb371;
 	}
 	.sec2{
 		background-color: #FF7F50;
 	}
 	.sec3{
-		background-color: #B8860B;
-	}
-	.content2{
-		background-color: #FFD700;
-	}
-	.content3{
-		background-color: #90EE90;
+		background-color: #ed28e0;
 	}
 	@media (min-width: 992px) {
 		section{
