@@ -10,11 +10,11 @@
 		margin-right: auto;
 		width: 400px;
 		margin-bottom: 30px;
-		background-color: #00c0ff;
+		background-color: palegoldenrod;
 		text-align: center;
 		border-bottom: 1px solid black;
 		border-top: 1px solid black;
-		border-radius: 15px;
+		border-radius: 100px;
 	}
 	.box{
 		width: 100%;
@@ -42,13 +42,22 @@
 		border-bottom: 1px solid black;
 	}
 	.sec1{
-		background-color: #3cb371;
+		background-color: #4d4dff;
 	}
 	.sec2{
-		background-color: #FF7F50;
+		background-color: darkslategrey;
 	}
 	.sec3{
-		background-color: #ed28e0;
+		background-color: limegreen;
+	}
+	.content1{
+		background-color: #b3b3ff;
+	}
+	.content2{
+		background-color: grey;
+	}
+	.content3{
+		background-color: lightgreen;
 	}
 	@media (min-width: 992px) {
 		section{
@@ -81,7 +90,7 @@
 			float: left;
 		}
 		.content1, .content2, .content3{
-			margin: 20px 25px;
+			margin: 15px 25px;
 		}
 	}
 	    
