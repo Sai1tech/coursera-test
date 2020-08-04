@@ -1,0 +1,78 @@
+body{
+	background-color: #9400D3;
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*HEADER*/
+#header-nav{
+	background-color: #FF7F50;
+}
+
+.navbar-brand > p{
+	color: white;
+	font-size: 3em;
+	text-shadow: 5px 5px 5px blue;
+}
+
+#header-nav button.navbar-toggler {
+	border: 5px solid #9370DB;
+}
+
+#nav-list li, #nav-list a{
+	text-align: center;
+	padding: 4px 0 10px;
+	text-decoration: none;
+	color: white;
+}
+
+#main-content > p{
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	padding-top: 10px;
+
+}
+
+.row > div{
+	padding: 50px;
+}
+div #chicken, div #aloo, div #noodles{
+	border-radius: 10px;
+	border: 2px solid black;
+	margin: 10px auto 10px;
+	padding: 10px;
+	background-color: #B0E0E6;
+}
+
+#veg, #paratha, #chick{
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid #87CEFA;
+	width: 200px;
+	margin: 5px auto 10px;
+	background-color: #87CEEB;
+}
+
+.list{
+	border: 2px solid #FF4500;
+	width: 200px;
+	border-radius: 50px;
+	margin: auto;
+	background-color: #FA8072;
+}
+
+.list:active , .list:hover{
+	font-size: 1.25em;
+	font-weight: bold;
+	background-color: #FFA07A;
+}
+
+.toop:hover{
+	text-decoration: none;
+}
+
+.toop{
+	color: #9400D3;
+	font-style: italic;
+}
