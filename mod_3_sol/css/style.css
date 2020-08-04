@@ -20,14 +20,12 @@ body{
 }
 
 #nav-list li, #nav-list a{
-	text-align: center;
 	padding: 4px 0 10px;
 	text-decoration: none;
 	color: white;
 }
 
 #main-content > p{
-	text-align: center;
 	font-size: 1.5em;
 	color: white;
 	padding-top: 10px;
